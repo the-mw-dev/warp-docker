@@ -12,7 +12,7 @@ GH_PROXY='https://ghproxy.lvedong.eu.org/'
 trap "rm -f /tmp/{wireguard-go-*,best_mtu,best_endpoint,endpoint,ip}; exit" INT
 
 E[0]="\n Language:\n 1. English (default) \n 2. 简体中文"
-C[0]="${E[0]}"
+C[0]="1"
 E[1]="The Linux Client adds the MASQUE protocol option, available in both Proxy mode (menu 5) and WarpProxy mode (menu 14)."
 C[1]="Linux Client 增加 MASQUE 协议可选项，Proxy 模式（菜单5）和 WarpProxy 模式（菜单14）都可以使用"
 E[2]="The script must be run as root, you can enter sudo -i and then download and run again. Feedback: [https://github.com/fscarmen/warp-sh/issues]"
